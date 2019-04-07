@@ -22,4 +22,5 @@ Download anntation of SVHN datast
 Download Keras-YOLO3 model
 
 	wget https://github.com/qqwweee/keras-yolo3
-	
+
+Download pretrain weight from [Here](https://drive.google.com/file/d/11ModH5nKTNh_zOLwqzTXTN1aGc7DM952/view?usp=sharing)
