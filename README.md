@@ -14,3 +14,12 @@ Besure the version of Keras and Tensorflow are same as mine
 	
 
 Download images from http://ufldl.stanford.edu/housenumbers/
+
+# Train
+Download anntation of SVHN datast
+
+	wget https://github.com/penny4860/svhn-voc-annotation-format/tree/master/annotation
+Download Keras-YOLO3 model
+
+	wget https://github.com/qqwweee/keras-yolo3
+	
