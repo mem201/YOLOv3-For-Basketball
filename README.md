@@ -18,10 +18,11 @@ Download images from http://ufldl.stanford.edu/housenumbers/
 # Training
 1. Download annotation of SVHN datast
 
-		git clone https://github.com/qqwweee/keras-yolo3
+		git clone https://github.com/penny4860/svhn-voc-annotation-format/annotation
 		
 2. Download Keras-YOLO3 model
 
+		git clone	 https://github.com/qqwweee/keras-yolo3
 
 3. Download pretrain weight from [Here](https://drive.google.com/file/d/11ModH5nKTNh_zOLwqzTXTN1aGc7DM952/view?usp=sharing)  
 It's original pretrain weight that converted into keras weight
