@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import os 
 
-sets=['train',  'val',  'test']
+sets=['train',  'test']
 
 classes = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
@@ -33,7 +33,7 @@ for  image_set in sets:
          num_min=int(file_min[0:png])
          num=len(files)
 
-    for image_id in range(num_min,num_min+num):
+    for image_id in range(num_min,num_min+num-2):
         list_file.write('/home/ang/pywork/svhn/image/%s/%s.png'%(image_set, image_id))
         convert_annotation(image_set,image_id, list_file)
         list_file.write('\n')
