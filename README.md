@@ -22,7 +22,7 @@ Download images from http://ufldl.stanford.edu/housenumbers/
 		
 2. Download Keras-YOLO3 model
 
-		git clone	 https://github.com/qqwweee/keras-yolo3
+		git clone https://github.com/qqwweee/keras-yolo3
 
 3. Download pretrain weight from [Here](https://drive.google.com/file/d/11ModH5nKTNh_zOLwqzTXTN1aGc7DM952/view?usp=sharing)  
 It's original pretrain weight that converted into keras weight
