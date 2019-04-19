@@ -16,7 +16,7 @@ Besure the version of Keras and Tensorflow are same as mine
 Download images from http://ufldl.stanford.edu/housenumbers/
 
 # Training
-1. Download anntation of SVHN datast
+1. Download annotation of SVHN datast
 
 		
 2. Download Keras-YOLO3 model
