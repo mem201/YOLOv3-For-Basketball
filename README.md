@@ -18,7 +18,7 @@ Download images from http://ufldl.stanford.edu/housenumbers/
 # Training
 1. Download annotation of SVHN datast
 
-		git clone https://github.com/penny4860/svhn-voc-annotation-format/annotation
+		git clone https://github.com/penny4860/svhn-voc-annotation-format
 		
 2. Download Keras-YOLO3 model
 
