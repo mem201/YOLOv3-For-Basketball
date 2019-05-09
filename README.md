@@ -1,4 +1,4 @@
-# YOLOv3-For-SVHN
+# YOLOv3-For-Basketball
 
 credit from https://github.com/qqwweee/keras-yolo3
 
