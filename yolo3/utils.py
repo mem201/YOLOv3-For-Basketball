@@ -86,9 +86,6 @@ def get_random_data(annotation_line, input_shape, random=True, max_boxes=20, jit
     new_image.paste(image, (dx, dy))
     image = new_image
 
-    # flip image or not
-    flip = rand()<.5
-    if flip: image = image.transpose(Image.FLIP_LEFT_RIGHT)
 
     # distort image
     hue = rand(-hue, hue)
