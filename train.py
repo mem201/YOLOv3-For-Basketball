@@ -173,7 +173,7 @@ def data_generator(annotation_lines, batch_size, input_shape, anchors, num_class
             if i==0:
                 np.random.shuffle(annotation_lines)
             image, box = get_random_data(annotation_lines[i], input_shape, random=True)
-            image_crop , box_crop= get_random_dada(annotation_lines[-i], input_shape, random=False) #take one out from the end
+            image_crop , box_crop= get_random_data(annotation_lines[-i], input_shape, random=False) #take one out from the end
             image_data.append(image,image_crop) 
             box_data.append(box,box_crop)
             i = (i+1) % n
